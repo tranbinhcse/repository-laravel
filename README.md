@@ -7,7 +7,7 @@ Laravel repository generator for 5.2+ versions
 ### Step 1: Install Through Composer
 
 ```
-composer require ozankurt/repoist
+composer require tinogroup/repository-laravel
 ```
 
 ### Step 2: Publish and edit the configurations

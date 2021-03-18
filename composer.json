@@ -1,5 +1,5 @@
 {
-	"name": "tinogroup/base-repository-laravel",
+	"name": "tinogroup/repository-laravel",
 	"description": "Laravel ^8.0 repository generator.",
 	"keywords": ["laravel", "repository", "repoist", "database"],
 	"license": "MIT",
