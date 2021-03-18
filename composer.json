@@ -1,0 +1,29 @@
+{
+	"name": "tinogroup/base-repository-laravel",
+	"description": "Laravel ^8.0 repository generator.",
+	"keywords": ["laravel", "repository", "repoist", "database"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Tran Binh",
+			"email": "binh@tino.org"
+		}
+	],
+	"require": {
+		"illuminate/support": "^8.0|^8.1"
+	},
+	"require-dev": {
+	},
+	"autoload": {
+		"psr-4": {
+			"Tino\\Repoist\\": "src/"
+		}
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Tino\\Repoist\\RepoistServiceProvider"
+			]
+		}
+	}
+}
